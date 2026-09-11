@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/snap"
+    app:startDestination="@id/generateFragment">
+
+    <fragment
+        android:id="@+id/generateFragment"
+        android:name="com.malaika.snap.GenerateFragment"
+        android:label="fragment_generate"
+        tools:layout="@layout/fragment_generate" />
+    <fragment
+        android:id="@+id/scanFragment"
+        android:name="com.malaika.snap.ScanFragment"
+        android:label="fragment_scan"
+        tools:layout="@layout/fragment_scan" />
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.malaika.snap.HistoryFragment"
+        android:label="fragment_history"
+        tools:layout="@layout/fragment_history" />
+</navigation>
