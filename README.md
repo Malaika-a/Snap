@@ -159,7 +159,8 @@ Camera permission is declared in `AndroidManifest.xml`. Runtime permission reque
 _Add your license here (MIT, Apache 2.0, etc.)_
 
 ## 🙌 Credits
+https://github.com/Malaika-a
 
 <div align="center">
-<sub>Built with 💜 using Kotlin and Android Jetpack.</sub>
+<sub>Built with 💜 using Kotlin and Android XML.</sub>
 </div>
