@@ -9,7 +9,13 @@
     android:orientation="vertical"
     android:background="@drawable/bgg"
     >
-
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:id="@+id/toolbar"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@android:color/transparent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
     <androidx.fragment.app.FragmentContainerView
         android:layout_width="match_parent"
         android:id="@+id/navigate"
@@ -18,6 +24,7 @@ android:layout_weight="1"
         android:name="androidx.navigation.fragment.NavHostFragment"
         app:navGraph="@navigation/snap"
        />
+
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:layout_width="match_parent"
